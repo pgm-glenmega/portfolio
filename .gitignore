@@ -9,9 +9,6 @@ yarn-error.log*
 # Parcel cache
 .parcel-cache/
 
-# Dist folder (production build output)
-dist/
-
 # Environment variables
 .env
 .env.local
