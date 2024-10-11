@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./static/css/reset.css" />
+    <link rel="stylesheet" href="./static/css/main.css" />
+    <title>portfolio page</title>
+  </head>
+    <div id="circle" class="circle"></div>
+    <header>
+      <nav class="nav-component">
+        <ul>
+          <li><a class="nav-home" href="/">Glen Meganck</a></li>
+          <div class="nav-end">
+            <li><a href="/portfolio.html">Portfolio</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="title-container">
+        <h1>My portfolio</h1>
+        <p>
+          Crafting beautiful and <span class="interact">interactive</span> web
+          experiences with a passion for front-end development.
+        </p>
+        <img
+          src="./static/images/icons/programming (1).png"
+          alt="Slide in Image"
+          class="slide-img"
+        />
+      </div>
+
+      <section class="project-section" data-animation="fade--in">
+        <div class="project project--big" data-video-src="./static/videos/screencast gentse feesten.mp4">
+          <img
+            class="project-image"
+            src="./static/images/festival.jpg"
+            alt="gentse feesten project"
+          />
+          <h2 class="project-title">Gentse feesten</h2>
+          <p class="project-description">Website built with an API</p>
+        </div>
+        
+        <div class="project project--small" data-video-src="./static/videos/screencast cms.mp4">
+          <img
+            class="project-image"
+            src="./static/images/fitness.jpg"
+            alt="project 2"
+          />
+          <h2 class="project-title">Project 2</h2>
+          <p class="project-description">Beschrijving</p>
+        </div>
+        
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-intro">
+        <h3>Let's talk</h3>
+        <a href="mailto:glen.meganck@gmail.com" class="email-link">
+          glen.meganck@gmail.com
+          <div class="arrow">➔</div>
+        </a>
+
+        <a href=""
+          ><img
+            class="footer__icon"
+            src="./static/images/icons/linkedin.png"
+            alt="icon van linkedin"
+        /></a>
+      </div>
+
+      <div class="info--myself">
+        <h3 class="footer-title">Talk to me</h3>
+        <address>
+          <p>nijverheidstraat 9/003</p>
+          <p>9160 Lokeren Oost-vlaanderen</p>
+          <p>Belgie</p>
+          <p>+32 (0)4 84 20 20 32</p>
+        </address>
+      </div>
+
+      <div class="info--school">
+        <h3 class="footer-title">My college</h3>
+        <address>
+          <p>leeuwstraat 1</p>
+          <p>9000 Gent Oost-vlaanderen</p>
+          <p>Belgie</p>
+          <p>+32 (0)9 234 72 00</p>
+        </address>
+      </div>
+    </footer>
+
+    <div id="video-overlay" class="overlay">
+      <div class="overlay-content">
+        <span class="close-btn" id="close-overlay">&times;</span>
+        <!-- Video element -->
+        <video id="project-video" width="100%" controls>
+          <source id="video-source" src="/static/videos/screencast cms.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+    
+
+  </body>
+  <script type="module" src="./src/scripts/appPortfolio.js"></script>
+</html>

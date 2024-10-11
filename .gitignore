@@ -1,0 +1,32 @@
+# Node modules directory
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Parcel cache
+.parcel-cache/
+
+# Dist folder (production build output)
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE/editor-specific files (VSCode in your case)
+.vscode/
+*.code-workspace
+
+# Mac system files
+.DS_Store
+
+# Coverage directory used by testing tools
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
