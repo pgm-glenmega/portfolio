@@ -168,6 +168,120 @@
           </div>
         </div>
       </section>
+
+      <div class="title-container">
+        <h1>My portfolio</h1>
+        <p>
+          Crafting beautiful and <span class="interact">interactive</span> web
+          experiences with a passion for front-end development.
+        </p>
+        <img
+          src="./static/images/icons/programming (1).png"
+          alt="Slide in Image"
+          class="slide-img"
+        />
+      </div>
+
+      <section class="project-section" data-animation="fade--in">
+        <div
+          class="project project--big"
+          data-video-src="./static/videos/screencast gentse feesten.mp4"
+        >
+          <img
+            class="project-image"
+            src="./static/images/festival.jpg"
+            alt="gentse feesten project"
+          />
+          <h2 class="project-title">Gentse feesten</h2>
+          <p class="project-description">Website built with an API</p>
+        </div>
+
+        <div
+          class="project project--small"
+          data-video-src="./static/videos/screencast cms.mp4"
+        >
+          <img
+            class="project-image"
+            src="./static/images/fitness.jpg"
+            alt="project 2"
+          />
+          <h2 class="project-title">Project 2</h2>
+          <p class="project-description">Beschrijving</p>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <div class="contact-container--info">
+          <h1 class="hero-title">Get in Touch</h1>
+          <p>
+            If you’re looking for a creative problem-solver who loves building
+            innovative digital experiences, let’s connect and explore how I can
+            contribute to your team!
+          </p>
+
+          <a href="mailto:glen.meganck@gmail.com" class="email-link">
+            glen.meganck@gmail.com
+            <div class="arrow">➔</div>
+          </a>
+          <p class="contact-phone">Phone: +32 (0)4 84 20 20 32</p>
+
+          <div class="icons-container">
+            <a
+              href="https://github.com/pgm-glenmega"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                class="footer__icon"
+                src="./static/images/icons/linkedin.png"
+                alt="LinkedIn icon"
+            /></a>
+
+            <a
+              href="https://github.com/pgm-glenmega"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                class="footer__icon"
+                src="./static/images/icons/github.png"
+                alt="GitHub icon"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="contact-container">
+          <!-- Contact Form -->
+          <form class="contact-form" action="submit_form.php" method="POST">
+            <label for="name">Your Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="John Doe"
+              required
+            />
+
+            <label for="email">Your Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@example.com"
+              required
+            />
+
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Write your message here"
+              required
+            ></textarea>
+
+            <button type="submit" class="submit-button">Send Message</button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <footer>
