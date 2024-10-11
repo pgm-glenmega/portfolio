@@ -1,4 +1,3 @@
-import gsap from "gsap";
 
 export const heroAnimation = () => {
   gsap.fromTo(
