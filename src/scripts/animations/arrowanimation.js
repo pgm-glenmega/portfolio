@@ -1,4 +1,3 @@
-import gsap from "gsap";
 
 const emailLink = document.querySelector(".email-link"); // Select the <a> element
 const arrow = document.querySelector(".arrow"); // Select the arrow inside <a>
